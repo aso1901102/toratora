@@ -44,7 +44,7 @@ class ResultActivity : AppCompatActivity() {
         when(gameResult){
             0-> resultLabel.setText(R.string.titleCall)
             1-> resultLabel.setText(R.string.result_win)
-            2-> resultLabel.setText(R.string.titleCall)
+            2-> resultLabel.setText(R.string.result_lose)
         }
         //戻るボタンにタップされた時の処理を設定する
         backButton.setOnClickListener{this.finish()}//戻るボタンが押されたら結果画面を破棄する
