@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_squere_size">100dp</dimen>
+    <dimen name="my_hand_size">160dp</dimen>
+    <dimen name="com_width">130dp</dimen>
+    <dimen name="com_height">200dp</dimen>
+</resources>
