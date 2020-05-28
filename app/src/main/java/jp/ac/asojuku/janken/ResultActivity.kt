@@ -90,7 +90,6 @@ class ResultActivity : AppCompatActivity() {
             .putInt("BEFORE_LAST_COM_HAND",lastComHand)//コンピューターの前々回の手
             .putInt("GAME_RESULT",gameResult)//勝敗
             .apply()//編集モードを確定して閉じる
-
     }
 
     //心理学ロジックを使ってグーチョキパーを決めるメソッド
@@ -129,8 +128,6 @@ class ResultActivity : AppCompatActivity() {
                 }
             }
         }
-
         return hand;//最終的な値を決定して返す
     }
-
 }
